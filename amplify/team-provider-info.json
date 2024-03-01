@@ -13,7 +13,13 @@
     },
     "categories": {
       "function": {
-        "cryptofunction": {}
+        "cryptofunction": {
+          "deploymentBucketName": "amplify-cryptoapp-dev-224758-deployment",
+          "s3Key": "amplify-builds/cryptofunction-694a33696e4d426e6643-build.zip"
+        }
+      },
+      "api": {
+        "cryptoapi": {}
       }
     }
   }
