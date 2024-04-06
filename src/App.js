@@ -2,7 +2,6 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 // Source: https://docs.amplify.aws/react/build-a-backend/restapi/fetch-data/
 import { get } from 'aws-amplify/api';
-import { API } from 'aws-amplify';
 
 
 const App = () => {

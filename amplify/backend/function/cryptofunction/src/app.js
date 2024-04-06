@@ -48,6 +48,16 @@ app.get('/coins', function(req, res) {
     .catch(err => res.json({ error: err }))
 })
 
+// Route for fetching Github profile data
+app.get('/github', function(req, res) {
+  const apiUrl = 'https://api.github.com/users/maxwellwilke';
+
+  axios.get(apiUrl)
+  .then(response => {
+    res.json(response.data);
+  })
+    .catch(err => res.json({ error: err }))
+});
 
 /**********************
  * Example get method *
